@@ -1,0 +1,51 @@
+header{
+    background-color: aqua;
+}
+.menubar ul li {
+    display: inline-block   
+}
+.menubar ul{
+    text-align:center;
+}
+.menubar ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: red;
+    border: 2px solid rgb(10, 10, 10);
+    display:inline-block
+}
+.menubar ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(144, 33, 235);
+}
+.menubar ul li{
+    margin: 5px;
+}
+#heroarea div{
+    width: 25%;
+    height: 250px;
+    padding:100px 50px ;
+    float:left;
+    margin: 10px;
+    padding: 20px;
+    background-color: brown;
+    transition: .4s;
+}
+#heroarea div h1{
+    margin-bottom:50px;
+}
+#heroarea div:hover{
+    transform:rotate(360deg);
+    background-color:red ;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#mainarea ol li{
+    color: rgb(63, 20, 255);
+    line: height 20px;
+    border-radius: ;
+}
